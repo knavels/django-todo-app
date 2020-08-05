@@ -128,3 +128,6 @@ try:
     print("Running on development server")
 except:
     print("Running on production server")
+
+
+LOGIN_URL = '/login/'
